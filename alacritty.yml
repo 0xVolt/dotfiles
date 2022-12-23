@@ -1,8 +1,8 @@
-# ~/.config/alacritty/alacritty.yml
-# by - Ash Bellett
+# To change things about the way the editor looks - ~/.config/alacritty/alacritty.yml
+# To change the terminal prompt iteself - .zshrc
 
 window:
-    opacity: 0.8
+    opacity: 0.77
     padding:	
         x: 24
         y: 24
