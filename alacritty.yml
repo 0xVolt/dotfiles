@@ -10,7 +10,7 @@ window:
 font:
     normal:
         family: FiraCode NFM
-    size: 16.0
+    size: 17.0
 
 colors:
     primary:
