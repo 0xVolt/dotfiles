@@ -2,15 +2,27 @@
 # To change the terminal prompt iteself - .zshrc
 
 window:
-    opacity: 0.77
-    padding:	
-        x: 24
-        y: 24
+    opacity: .95
+    dimensions:
+        columns: 140
+        lines: 38
+    padding:
+        x: 15
+        y: 15
+    decorations: full # Still won't show in a window manger, but will in a desktop environment
+    window.dynamic_title: true
 
 font:
     normal:
-        family: FiraCode NFM
-    size: 17.0
+        family: JetBrainsMono NFM
+    size: 15.5
+
+cursor:
+  style:
+    shape: Beam
+    blinking: off
+    # blink-interval: 750
+    unfocused_hollow: true
 
 colors:
     primary:
